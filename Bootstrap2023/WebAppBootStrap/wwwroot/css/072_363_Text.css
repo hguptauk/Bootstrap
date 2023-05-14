@@ -1,0 +1,19 @@
+a.custom-link:link {
+    color: #800080;
+    text-decoration: none;
+}
+
+a.custom-link:visited {
+    color: #4D004D;
+    text-decoration: none;
+}
+
+a.custom-link:hover {
+    color: #B300B3;
+    text-decoration: none;
+}
+
+a.custom-link:active {
+    color: #B300B3;
+    text-decoration: underline;
+}

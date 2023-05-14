@@ -1,0 +1,15 @@
+.custom-menu {
+    color: #4D004D;
+}
+
+.custom-menu:hover {
+    color: #E099E0;
+}
+
+.custom-menu:focus {
+    color: #E099E0;
+}
+
+.custom-menu:active {
+    color: #E099E0;
+}

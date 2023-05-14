@@ -1,0 +1,10 @@
+.custom-border-thick {
+    border-width: 10px !important;
+}
+
+.custom-border-various-styles {
+    border-top-style: dashed !important;
+    border-bottom-style: solid !important;
+    border-left-style: dotted !important;
+    border-right-style: dotted !important;
+}

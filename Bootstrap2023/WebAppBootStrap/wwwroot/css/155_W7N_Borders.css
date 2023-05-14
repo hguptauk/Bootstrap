@@ -1,0 +1,11 @@
+.custom-shadow-spread {
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.custom-shadow-more-spread {
+    box-shadow: 3px 3px 3px 9px black;
+}
+
+.custom-shadow-even-more-spread {
+    box-shadow: 3px 3px 3px 18px black;
+}

@@ -1,0 +1,13 @@
+.custom-form-purple {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #800080;
+    height: 200px;
+}
+
+.custom-form-purple:focus {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #800080;
+    box-shadow: 0 0 5px 5px rgba(239,204,239,0.8);
+}

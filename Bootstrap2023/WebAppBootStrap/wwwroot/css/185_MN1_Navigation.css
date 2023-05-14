@@ -1,0 +1,23 @@
+.custom-menu {
+    color: #800080;
+    text-decoration: none;
+}
+
+.custom-menu:hover {
+    color: #B300B3;
+    text-decoration: none;
+}
+
+.custom-menu:focus {
+    color: #B300B3;
+    text-decoration: none;
+}
+
+.custom-menu:active {
+    color: #4D004D;
+    text-decoration: underline;
+}
+
+.custom-menu.active {
+    font-weight: bold;
+}

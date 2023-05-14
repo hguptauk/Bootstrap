@@ -1,0 +1,15 @@
+.custom-shadow-up {
+    box-shadow: 3px -3px 3px 3px rgba(0,0,0,1);
+}
+
+.custom-shadow-more-up {
+    box-shadow: 3px -9px 3px 3px rgba(0,0,0,1);
+}
+
+.custom-shadow-down {
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,1);
+}
+
+.custom-shadow-more-down {
+    box-shadow: 3px 9px 3px 3px rgba(0,0,0,1);
+}

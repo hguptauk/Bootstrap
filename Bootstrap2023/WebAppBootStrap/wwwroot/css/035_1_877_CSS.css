@@ -1,0 +1,11 @@
+p {
+    background-color:blue;
+}
+
+.custom-bg-black {
+    background-color: black;
+}
+
+#main-content {
+    background-color: red;
+}

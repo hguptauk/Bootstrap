@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>The Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/265_9Q2.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Container Start -->
+    <div class="container-fluid mt-2">
+
+        <!-- Navigation Bar Start -->
+        <nav class="navbar navbar-expand-lg border-bottom pb-3">
+
+            <a class="navbar-brand" href="#"><img src="images/store-name.png" class="img-fluid me-2"></a>
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDropdown">
+                <span class="bi bi-caret-down-fill"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapseDropdown">
+
+                <div class="navbar-nav m-auto fw-bold">
+                    <a class="nav-link custom-menu" href="link-nullam.html">Nullam</a>
+                    <a class="nav-link custom-menu" href="link-vivamus.html">Vivamus</a>
+                    <a class="nav-link custom-menu" href="link-quisque.html">Quisque</a>
+                    <a class="nav-link custom-menu" href="link-aliquam.html">Aliquam</a>
+                </div>
+
+                <div class="navbar-nav">
+
+                    <div class="dropdown">
+                        <a class="nav-link custom-menu custom-font-smaller dropdown-toggle" href="#" data-bs-toggle="dropdown"><span class="bi-bi-person-fill"></span> Account</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#signInModal">Sign In</a>
+                            <a class="dropdown-item" href="link-create-account.html">Create Account</a>
+                            <a class="dropdown-item" href="link-view-orders.html">View Orders</a>
+                            <a class="dropdown-item" href="link-gift-card-balance.html">Gift Card Balance</a>
+                        </div>
+                    </div>
+
+                    <a class="nav-link custom-menu custom-font-smaller" href="#cartSidebar" data-bs-toggle="offcanvas"><span class="bi bi-cart-fill"></span> Cart</a>
+                </div>
+
+                <form class="form-inline ms-2" action="form-processing.php" method="post">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-sm custom-form-purple" name="searchKeyword" placeholder="Search">
+                        <button type="submit" class="btn btn-sm custom-btn-purple"><span class="bi bi-search"></span></button>
+                    </div>
+                </form>
+
+            </div>
+
+        </nav>
+        <!-- Navigation Bar End -->
+        <!-- Carousel Start -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/promo-1.jpg" alt="First image">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/promo-2.jpg" alt="Second image">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/promo-3.jpg" alt="Third image">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/promo-4.jpg" alt="Fourth image">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+        </div>
+        <!--  Carousel End -->
+        <!--  Shop by Department Start -->
+        <h4 class="m-3">Shop By Department</h4>
+
+        <div class="row">
+
+            <div class="col-md-2 col-sm-4 col-6 my-1">
+                <div class="card shadow">
+                    <a href="link-nullam.html"><img class="card-img-top bg-danger" src="images/img200x150.png"></a>
+                    <div class="card-footer bg-white text-center font-weight-bold">
+                        Nullam
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-6 my-1">
+                <div class="card shadow">
+                    <a href="link-vivamus.html"><img class="card-img-top bg-warning" src="images/img200x150.png"></a>
+                    <div class="card-footer bg-white text-center font-weight-bold">
+                        Vivamus
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-6 my-1">
+                <div class="card shadow">
+                    <a href="link-quisque.html"><img class="card-img-top bg-success" src="images/img200x150.png"></a>
+                    <div class="card-footer bg-white text-center font-weight-bold">
+                        Quisque
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-6 my-1">
+                <div class="card shadow">
+                    <a href="link-aliquam.html"><img class="card-img-top bg-primary" src="images/img200x150.png"></a>
+                    <div class="card-footer bg-white text-center font-weight-bold">
+                        Aliquam
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-6 my-1">
+                <div class="card shadow">
+                    <a href="link-eget.html"><img class="card-img-top bg-danger" src="images/img200x150.png"></a>
+                    <div class="card-footer bg-white text-center font-weight-bold">
+                        Eget
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-6 my-1">
+                <div class="card shadow">
+                    <a href="link-volutpat.html"><img class="card-img-top bg-dark" src="images/img200x150.png"></a>
+                    <div class="card-footer bg-white text-center font-weight-bold">
+                        Volutpat
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--  Shop by Department End -->
+        <!--  Icon Highlights Start -->
+        <div class="row">
+            <div class="col-md-3 col-6 text-center p-4 my-5">
+                <p><span class="bi bi-tag custom-icon-large"></span></p>
+                <p class="custom-font-larger font-weight-bold text-secondary">Up to 80% Off</p>
+            </div>
+            <div class="col-md-3 col-6 text-center p-4 my-5">
+                <p><span class="bi bi-key custom-icon-large"></span></p>
+                <p class="custom-font-larger font-weight-bold text-secondary">Safe and Secure</p>
+            </div>
+            <div class="col-md-3 col-6 text-center p-4 my-5">
+                <p><span class="bi bi-truck custom-icon-large"></span></p>
+                <p class="custom-font-larger font-weight-bold text-secondary">Fast and Free Shipping</p>
+            </div>
+            <div class="col-md-3 col-6 text-center p-4 my-5">
+                <p><span class="bi bi-box-seam custom-icon-large"></span></p>
+                <p class="custom-font-larger font-weight-bold text-secondary">Free Returns</p>
+            </div>
+        </div>
+        <!--  Icon Highlights End -->
+        <!-- Mailing List Form Start -->
+        <div class="mb-5">
+            <h3 class="text-center">Never miss our best deals!</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-12">
+                    <form action="form-processing.php" method="post">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="customerEmail" placeholder="Email Address">
+                                <input type="submit" class="btn btn-dark" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Mailing List Form End -->
+        <!-- Links Start -->
+        <div class="row m-4 p-4 border-top">
+            <div class="col-md-4">
+                <h3 class="pb-3">About Us</h3>
+                <p><a href="link-about-the-store.html" class="store-link">About The Store</a></p>
+                <p><a href="link-store-card.html" class="store-link">The Store Credit Card</a></p>
+                <p><a href="link-careere.html" class="store-link">Careers</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="pb-3">Need Help?</h3>
+                <p><a href="link-my-order.html" class="store-link">Where is my order?</a></p>
+                <p><a href="link-return-policy.html" class="store-link">Return Policy</a></p>
+                <p><a href="link-faqe.html" class="store-link">FAQ</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="pb-3">Contact Us</h3>
+                <p><a href="link-call-us.lhtml" class="btn btn-outline-dark"><span class="fa fa-mobile-alt"></span> Call Us</a></p>
+                <p>Mon to Fri 8AM to 9PM</p>
+                <p>Sat and Sunday 10AM to 6PM</p>
+                <p>(Pacific Standard Time)</p>
+            </div>
+        </div>
+        <!-- Links End -->
+
+    </div>
+    <!-- Container End -->
+    <!-- Modal for Sign In Form Start -->
+    <div class="modal fade" id="signInModal" tabindex="-1">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <form action="form-processing.php" method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign In</h5>
+                        <button type="button" data-bs-dismiss="modal"><span>×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>User ID</label>
+                            <input type="text" class="form-control custom-form-purple" name="userID">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control custom-form-purple" name="userPassword">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="btn custom-btn-purple" value="Sign In">
+                        <input type="reset" class="btn btn-secondary" value="Clear">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<!-- Modal for Sign In Form End -->
+<!--  Sidebar Start  -->
+<div class="offcanvas offcanvas-end custom-bg-purple text-white" tabindex="-1" id="cartSidebar" data-bs-backdrop="false" data-bs-scroll="true">
+    <div class="offcanvas-header">
+        <h3 class="offcanvas-title" id="offcanvasLabel"><i class="bi bi-cart-fill"></i> Your Cart</h3>
+        <button class="btn custom-btn-purple" data-bs-dismiss="offcanvas"><i class="bi bi-x"></i></button>
+    </div>
+    <div class="offcanvas-body text-center">
+        Your cart is empty
+    </div>
+</div>
+<!--  Sidebar End  -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+

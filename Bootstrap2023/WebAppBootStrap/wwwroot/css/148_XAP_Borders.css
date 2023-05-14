@@ -1,0 +1,35 @@
+.custom-border-thick {
+    border-width: 10px !important;
+}
+
+.custom-border-solid {
+    border-style: solid !important;
+}
+
+.custom-border-dashed {
+    border-style: dashed !important;
+}
+
+.custom-border-dotted {
+    border-style: dotted !important;
+}
+
+.custom-border-double {
+    border-style: double !important;
+}
+
+.custom-border-groove {
+    border-style: groove !important;
+}
+
+.custom-border-ridge {
+    border-style: ridge !important;
+}
+
+.custom-border-inset {
+    border-style: inset !important;
+}
+
+.custom-border-outset {
+    border-style: outset !important;
+}

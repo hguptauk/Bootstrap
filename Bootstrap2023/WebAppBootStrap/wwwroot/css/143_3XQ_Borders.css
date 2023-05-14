@@ -1,0 +1,15 @@
+.custom-border-thick {
+    border-width: 10px !important;
+}
+
+.custom-border-dark-purple {
+    border-color: #4D004D !important;
+}
+
+.custom-border-purple {
+    border-color: #800080 !important;
+}
+
+.custom-border-light-purple {
+    border-color: #B300B3 !important;
+}

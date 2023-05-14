@@ -1,0 +1,6 @@
+.custom-table-bordered th,
+.custom-table-bordered td {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E099E0 !important;
+}

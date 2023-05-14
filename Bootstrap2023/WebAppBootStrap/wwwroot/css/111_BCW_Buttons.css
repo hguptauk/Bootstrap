@@ -1,0 +1,17 @@
+.custom-btn-purple {
+    color: #F7E5F7;
+    background-color: #4D004D;
+    border-color: #F7E5F7;
+}
+
+.custom-btn-purple:hover {
+    color: #4D004D;
+    background-color: #E8B2E8;
+    border-color: #E099E0;
+}
+
+.custom-btn-purple:focus {
+    color: #4D004D;
+    background-color: #E8B2E8;
+    box-shadow: 0 0 0 0.2rem #E099E0;
+}

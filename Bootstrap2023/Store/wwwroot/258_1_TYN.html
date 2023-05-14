@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>The Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/256_2_AEW.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Container Start -->
+    <div class="container-fluid mt-2">
+
+        <!-- Navigation Bar Start -->
+        <nav class="navbar navbar-expand-lg border-bottom pb-3">
+
+            <a class="navbar-brand" href="#"><img src="images/store-name.png" class="img-fluid me-2"></a>
+
+            <div class="navbar-nav m-auto fw-bold">
+                <a class="nav-link custom-menu" href="link-nullam.html">Nullam</a>
+                <a class="nav-link custom-menu" href="link-vivamus.html">Vivamus</a>
+                <a class="nav-link custom-menu" href="link-quisque.html">Quisque</a>
+                <a class="nav-link custom-menu" href="link-aliquam.html">Aliquam</a>
+            </div>
+
+            <div class="navbar-nav">
+
+                <div class="dropdown">
+                    <a class="nav-link custom-menu custom-font-smaller dropdown-toggle" href="#" data-bs-toggle="dropdown"><span class="bi bi-person-fill"></span> Account</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#signInModal">Sign In</a>
+                        <a class="dropdown-item" href="link-create-account.html">Create Account</a>
+                        <a class="dropdown-item" href="link-view-orders.html">View Orders</a>
+                        <a class="dropdown-item" href="link-gift-card-balance.html">Gift Card Balance</a>
+                    </div>
+                </div>
+
+                <a class="nav-link custom-menu custom-font-smaller" href="link-cart.html"><span class="bi bi-cart-fill"></span> Cart</a>
+
+            </div>
+
+            <form class="form-inline ms-2" action="form-processing.php" method="post">
+                <div class="input-group">
+                    <input type="text" class="form-control form-control-sm custom-form-purple" name="searchKeyword" placeholder="Search">
+                    <button type="submit" class="btn btn-sm custom-btn-purple"><span class="bi bi-search"></span></button>
+                </div>
+            </form>
+
+        </nav>
+        <!-- Navigation Bar End -->
+
+    </div>
+    <!-- Container End -->
+    <!-- Modal for Sign In Form Start -->
+    <div class="modal fade" id="signInModal" tabindex="-1">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <form action="form-processing.php" method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign In</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>User ID</label>
+                            <input type="text" class="form-control custom-form-purple" name="userID">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control custom-form-purple" name="userPassword">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="btn custom-btn-purple" value="Sign In">
+                        <input type="reset" class="btn btn-secondary" value="Clear">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Sign In Form End -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+
+

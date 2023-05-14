@@ -1,0 +1,7 @@
+.custom-border-thick {
+    border-width: 10px !important;
+}
+
+.custom-border-various-colors {
+    border-color: red yellow blue green !important;
+}
